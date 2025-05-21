@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Complete HTML, CSS, JS Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is a paragraph styled with CSS.</p>
+  <button onclick="toggleTheme()">Toggle Theme</button>
+
+  <!-- Navigation using semantic HTML -->
+  <header>
+    <h2>My Website</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h3>Welcome to the Main Content</h3>
+      <p>This article talks about how to use semantic HTML and apply basic styling.</p>
+    </article>
+
+    <!-- Layout demonstration section -->
+    <section class="layout-demo">
+      <h3>Display Property Demonstration</h3>
+      <div class="block-example">
+        <div class="block-item">Block 1</div>
+        <div class="block-item">Block 2</div>
+        <div class="block-item">Block 3</div>
+      </div>
+
+      <div class="inline-example">
+        <span class="inline-item">Inline A</span>
+        <span class="inline-item">Inline B</span>
+        <span class="inline-item">Inline C</span>
+      </div>
+
+      <div class="inline-block-example">
+        <div class="inline-block-item">Inline-Block I</div>
+        <div class="inline-block-item">Inline-Block II</div>
+        <div class="inline-block-item">Inline-Block III</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-theme");
+    }
+    console.log("Page loaded successfully!");
+  </script>
+</body>
+</html>
